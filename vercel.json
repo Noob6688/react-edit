@@ -4,11 +4,5 @@
     {
       "use": "@vercel/vite"
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/"
-    }
   ]
 }
