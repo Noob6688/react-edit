@@ -7,7 +7,7 @@ import { editUserInfo,userInfo } from '@/api/index'
 import { baseUrl } from '@/config/index'
 import './style.less'
 
-const userEdit = () => {
+const UserEdit = () => {
   const [avatar, setAvatar] = useState('')
   const [signature, setSignature] = useState('')
 
@@ -55,7 +55,7 @@ const userEdit = () => {
     history.goBack()
   }
   return (
-    <>
+    <div>
       <Header title='用户信息' />
       <div className='userinfo'>
         <h1>个人资料</h1>
@@ -84,7 +84,7 @@ const userEdit = () => {
         </div>
         <Button onClick={save} style={{ marginTop: 50 }} block theme='primary'>保存</Button>
       </div>
-    </>
+    </div>
   )
 }
-export default userEdit
+export default UserEdit

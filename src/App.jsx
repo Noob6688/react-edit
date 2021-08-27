@@ -16,7 +16,7 @@ function App() {
     setShowNav(needNav.includes(pathname))
   },[pathname])
   return (
-    <>
+    <div>
       <ConfigProvider primaryColor={'#007fff'} locale={zhCN}>
         <Switch>
           {
@@ -29,7 +29,7 @@ function App() {
         </Switch>
       </ConfigProvider>
       <NavBar showNav={showNav} />
-    </>
+    </div>
   )
 }
 

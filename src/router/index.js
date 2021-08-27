@@ -1,10 +1,10 @@
 import Home from "../container/Home";
 import User from "../container/User";
 import Data from "../container/Data";
-import about from "../container/About/about";
+import About from "../container/About/about";
 import Login from "../container/Login"
 import Detail from "../container/Detail";
-import userInfo from "../container/UserInfo";
+import UserInfo from "../container/UserInfo";
 import Account from "../container/Account";
 
 const routes = [
@@ -22,7 +22,7 @@ const routes = [
   },
   {
     path:'/userinfo',
-    component:userInfo
+    component:UserInfo
   },
   {
     path:'/account',
@@ -34,7 +34,7 @@ const routes = [
   },
   {
     path:'/about',
-    component:about
+    component:About
   },
   {
     path:'/detail',

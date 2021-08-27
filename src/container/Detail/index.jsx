@@ -43,7 +43,7 @@ const Detail = () => {
   }
 
   return (
-    <>
+    <div>
       <Header title='账单详情' />
       <div className='detail'>
         <div className='card'>
@@ -75,7 +75,7 @@ const Detail = () => {
         </div>
       </div>
       <PopupAddBill ref={addRef} detail={detail} onReload={getData} />
-    </>
+    </div>
   )
 }
 

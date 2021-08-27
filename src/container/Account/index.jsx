@@ -28,7 +28,7 @@ const Account = (props) => {
     })
   }
   return (
-    <>
+    <div>
       <Header title='重置密码' />
       <div className='account'>
         <div className='from'>
@@ -53,7 +53,7 @@ const Account = (props) => {
         </div>
         <Button className='btn' block theme='primary' onClick={submit}>提交</Button>
       </div>
-    </>
+    </div>
   )
 }
 export default createForm()(Account)
