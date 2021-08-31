@@ -69,4 +69,4 @@ export const LOAD_STATE = {
   complete: 5, // 加载完成（无新数据）
 };
 
-export const baseUrl = MODE == 'development' ? '' : 'http://107.173.140.5:7001'
+export const baseUrl = MODE == 'development' ? '' : 'https://www.react-edit.ltd'
